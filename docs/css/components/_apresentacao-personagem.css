@@ -1,0 +1,46 @@
+.apresentacao-personagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8rem;
+
+    margin: 10rem 0 0 0;
+    padding: 0rem 10rem;
+}
+
+.apresentacao-personagem__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    width: 100%;
+    animation: aparecer 0.5s ease-in-out;
+}
+
+.info__nome {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 5rem;
+    
+    color: var(--cor-titulo);
+    filter: var(--brilho-dourado-fraco);
+}
+
+.info__descricao {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.apresentacao-personagem__img {
+    width: 37%;
+    transform: scale(1.35);
+    transition: 1s;
+    filter: var(--brilho-dourado-fraco);
+    animation: clarao 0.5s ease-in-out, flutuar 2s ease-in-out 4s infinite alternate;
+}
+
+.apresentacao-personagem__img:hover {
+    transition: 1s;
+    filter: var(--brilho-dourado-forte);
+}

@@ -1,0 +1,50 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem 10rem 0 10rem; 
+}
+
+.cabecalho__logo {
+    width: 10%;
+    cursor: pointer;
+}
+
+.cabecalho__logo:hover {
+    filter: brightness(1.1);
+}
+
+.menu-personagens__lista {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.personagem__btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: var(--cor-texto);
+    
+    font-family: var(--fonte-paragrafo);
+    font-size: 1.15rem;
+    font-weight: 600;
+    
+    transition: 0.5s;
+}
+
+.personagem__btn:hover {
+    transform: scale(1.1);
+    color: var(--cor-titulo);
+    filter: var(--brilho-dourado-fraco);
+    
+    transition: 0.5s;
+}
+
+.active {
+    color: var(--cor-titulo);
+    filter: var(--brilho-dourado-fraco);
+}

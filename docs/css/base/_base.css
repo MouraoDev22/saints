@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
+:root {
+    --fonte-titulo: "Texturina", serif;
+    --fonte-paragrafo: "Alumni Sans Pinstripe", sans-serif;
+
+    --cor-fundo: #000000;
+    --cor-titulo: #FFFFFF;
+    --cor-texto: #959595;
+
+    --brilho-dourado-fraco: drop-shadow(0 0 0.938rem rgba(255, 215, 0, 0.2));
+    --brilho-dourado-forte: drop-shadow(0 0 1.563rem rgba(255, 215, 0, 0.5));
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    
+    font-family: var(--fonte-paragrafo);
+    font-size: 1rem;
+    font-weight: 600;
+    
+    background-image: radial-gradient(circle at 100% 60%, transparent, var(--cor-fundo)), url("../../assets/images/constellations/gemini.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes clarao {
+    0% {
+        opacity: 0;
+        filter: brightness(3) sepia(2) drop-shadow(0 0 50px rgba(255, 215, 0, 1)) drop-shadow(0 0 100px rgba(255, 255, 255, 0.9));
+        transform: scale(1.30);
+    }
+    100% {
+        opacity: 1;
+        filter: brightness(1) sepia(0) var(--brilho-dourado-forte);
+        transform: scale(1.35);
+    }
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flutuar {
+    0% {
+        transform: scale(1.35) translateY(0);
+    }
+    100% {
+        transform: scale(1.35) translateY(-2px);
+    }
+}
