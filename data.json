@@ -12,12 +12,12 @@
     {
         "nome": "Saga de Gêmeos",
         "descricao": "Saga de Gêmeos é reconhecido como um dos Cavaleiros de Ouro mais poderosos e complexos da hierarquia do Santuário, sendo definido por uma dualidade intrínseca que o divide entre uma bondade divina e uma maldade absoluta. Como guardião da terceira casa zodiacal, ele possui um cosmo de magnitude comparável ao das divindades, o que lhe permite dominar técnicas devastadoras como a Explosão Galáctica, capaz de pulverizar estrelas, e a Outra Dimensão, que projeta adversários para um vácuo espaço-temporal eterno. Além do vigor físico, sua capacidade de manipulação mental através do Satã Imperial permitiu-lhe exercer um controle absoluto sobre a vontade alheia, facilitando a execução de seus planos após assassinar secretamente o Grande Mestre Shion e usurpar o seu cargo por treze anos. Durante esse período de tirania oculta, ele tentou eliminar a reencarnação de Atena ainda na infância e manipulou toda a ordem dos Cavaleiros para consolidar um domínio autoritário sobre a Terra. Sua trajetória encontra um desfecho trágico e redentor ao final da Batalha das Doze Casas; após ter sua face maligna expurgada pela luz do Escudo de Atena, ele retoma a plena lucidez e, consumido pelo remorso, opta por tirar a própria vida diante de Saori Kido, falecendo como um homem que buscou a expiação de seus pecados através do sacrifício final",
-        "imagem": "#"    
+        "imagem": "./assets/images/saints/saga.svg"    
     },
     {
         "nome": "Máscara da Morte de Câncer",
         "descricao": "Máscara da Morte de Câncer é o guardião da quarta casa zodiacal, distinguindo-se por uma personalidade cínica e uma filosofia baseada na premissa de que a justiça é definida pela força absoluta. Especialista em técnicas de manipulação espiritual, ele possui a capacidade única de transitar entre o mundo dos vivos e a entrada do submundo, utilizando as Ondas do Inferno para enviar a alma de seus adversários diretamente ao Yomotsu Hirasaka. A sua trajetória é marcada pela lealdade ao Grande Mestre usurpador e pela brutalidade com que tratava seus oponentes, cujas faces permaneciam presas às paredes de seu templo como troféus. O seu desfecho ocorre durante a Batalha das Doze Casas, em um confronto decisivo contra Shiryu de Dragão; naquele momento, a própria Armadura de Ouro de Câncer o abandonou por considerá-lo indigno de trajá-la, resultando em sua queda definitiva para o abismo do mundo dos mortos. Assim como os seus pares, ele ressurge brevemente durante a invasão de Hades e encontra a sua redenção final ao sacrificar a própria existência no Muro das Lamentações, unindo o seu cosmo ao dos demais Cavaleiros de Ouro para viabilizar a vitória de Atena.",
-        "imagem": "#"
+        "imagem": "./assets/images/saints/mascara-da-morte.svg"
     },
     {
         "nome": "Aiolia de Leão",
@@ -35,27 +35,27 @@
         "imagem": "#"
     },
     {
-        "nome": "",
+        "nome": "Milo de Escorpião",
+        "descricao": "",
+        "imagem": "./assets/images/saints/milo.svg"
+    },
+    {
+        "nome": "Aiolos de Sagitário",
         "descricao": "",
         "imagem": "#"
     },
     {
-        "nome": "",
+        "nome": "Shura de Capricórnio",
         "descricao": "",
-        "imagem": "#"
+        "imagem": "./assets/images/saints/shura.svg"
     },
     {
-        "nome": "",
+        "nome": "Camus de Aquário",
         "descricao": "",
-        "imagem": "#"
+        "imagem": "./assets/images/saints/camus.svg"
     },
     {
-        "nome": "",
-        "descricao": "",
-        "imagem": "#"
-    },
-    {
-        "nome": "",
+        "nome": "Afrodite de Peixes",
         "descricao": "",
         "imagem": "#"
     }
