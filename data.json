@@ -7,7 +7,7 @@
     {
         "nome": "Aldebaran de Touro",
         "descricao": "Aldebaran de Touro é o guardião da segunda casa zodiacal, sendo reconhecido por sua integridade moral, lealdade inabalável e uma força física colossal que reflete a sua natureza resiliente. No campo de batalha, ele atua como uma barreira intransponível, utilizando a técnica do 'Iai' para desferir o Grande Chifre, um golpe de velocidade sônica que combina uma defesa impenetrável com uma ofensiva devastadora, capaz de pulverizar os adversários. A sua trajetória é marcada por atos de nobreza, como no momento em que permitiu a progressão dos Cavaleiros de Bronze após testar a determinação de Seiya de Pégaso, e por sua vigilância constante contra as ameaças ao Santuário. O seu desfecho ocorre de forma heroica durante a invasão do exército de Hades, quando enfrenta o Espectro Niobe de Deep; mesmo após ser atingido por uma técnica letal, ele utiliza a sua última reserva de cosmo para desintegrar o inimigo antes de falecer em pé, mantendo a postura de guarda. Por fim, a sua essência manifesta-se uma última vez no Muro das Lamentações, onde ele sacrifica a sua alma ao lado dos demais Cavaleiros de Ouro para viabilizar a vitória de Atena contra as forças das trevas.",
-        "imagem": "#"
+        "imagem": "./assets/images/saints/aldebaran.svg"
     },
     {
         "nome": "Saga de Gêmeos",

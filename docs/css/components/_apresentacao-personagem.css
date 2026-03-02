@@ -15,7 +15,6 @@
     gap: 1rem;
     
     width: 100%;
-    animation: aparecer 0.5s ease-in-out;
 }
 
 .info__nome {
@@ -25,11 +24,15 @@
     
     color: var(--cor-titulo);
     filter: var(--brilho-dourado-fraco);
+
+    animation: aparecer 0.5s ease-in-out;
 }
 
 .info__descricao {
     font-size: 1.5rem;
     text-align: justify;
+
+    animation: aparecer 0.5s ease-in-out;
 }
 
 .apresentacao-personagem__img {
