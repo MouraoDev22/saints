@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     padding: 1rem 10rem 0 10rem; 
 }
@@ -59,6 +59,33 @@
     height: 1px;
     background-color: var(--cor-titulo);
     filter: var(--brilho-dourado-fraco);
+}
+
+.cabecalho__contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contato__link {
+    width: fit-content;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.contato__link:hover {
+    transform: scale(1.1);
+    color: var(--cor-titulo);
+    filter: var(--brilho-dourado-fraco);
+    
+    transition: 0.5s;
+}
+
+
+.link__icone {
+    width: 1.5rem;
 }
 
 @media (max-width: 1200px) {
