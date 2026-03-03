@@ -18,7 +18,7 @@ export function alterarPersonagem(idBtn: string): void {
             </section>
             <img src="${saint.imagem}" alt="${saint.nome}" class="apresentacao-personagem__img">
             `
-            return;
         };
     };
+    return;
 };
