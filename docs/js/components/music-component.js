@@ -6,7 +6,7 @@ const mscSoldierDream = new Audio('./assets/audio/soldier-dream.mp3');
 if (!mscSoldierDream)
     throw new Error('HTMLAudioElement(mscSoldierDream) não encontrado!');
 mscSoldierDream.loop = true;
-mscSoldierDream.volume = 0.3;
+mscSoldierDream.volume = 0.25;
 logo.addEventListener('click', () => {
     if (mscSoldierDream.paused) {
         return mscSoldierDream.play();

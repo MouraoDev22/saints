@@ -15,10 +15,10 @@ export function alterarPersonagem(idBtn) {
             </section>
             <img src="${saint.imagem}" alt="${saint.nome}" class="apresentacao-personagem__img">
             `;
-            return;
         }
         ;
     }
     ;
+    return;
 }
 ;
