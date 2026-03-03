@@ -26,7 +26,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     
-    background-image: radial-gradient(circle at 100% 60%, transparent, var(--cor-fundo)), url("#");
+    background-image: radial-gradient(circle at 100% 60%, transparent, var(--cor-fundo)), url("../../assets/images/background.png");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
