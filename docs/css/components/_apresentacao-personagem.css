@@ -39,10 +39,10 @@
 }
 
 .apresentacao-personagem__img {
-    margin-top: 20rem;
+    margin-top: 14rem;
     
     width: 37%;
-    transform: scale(1.35);
+    transform: scale(1.4);
     transition: 1s;
     filter: var(--brilho-dourado-fraco);
     animation: clarao 0.5s ease-in-out, flutuar 2s ease-in-out 4s infinite alternate;

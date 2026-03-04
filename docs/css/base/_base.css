@@ -26,7 +26,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     
-    background-image: radial-gradient(circle at 100% 60%, transparent, var(--cor-fundo)), url("../../assets/images/background.png");
+    background-image: radial-gradient(circle at 100% 100%, transparent, var(--cor-fundo)), url("../../assets/images/bg.png");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,12 +36,12 @@ body {
     0% {
         opacity: 0;
         filter: brightness(3) sepia(2) drop-shadow(0 0 50px rgba(255, 215, 0, 1)) drop-shadow(0 0 100px rgba(255, 255, 255, 0.9));
-        transform: scale(1.30);
+        transform: scale(1.35);
     }
     100% {
         opacity: 1;
         filter: brightness(1) sepia(0) var(--brilho-dourado-forte);
-        transform: scale(1.35);
+        transform: scale(1.4);
     }
 }
 
@@ -56,9 +56,9 @@ body {
 
 @keyframes flutuar {
     0% {
-        transform: scale(1.35) translateY(0);
+        transform: scale(1.4) translateY(0);
     }
     100% {
-        transform: scale(1.35) translateY(-2px);
+        transform: scale(1.4) translateY(-2px);
     }
 }
