@@ -1,7 +1,12 @@
 import { Saint } from '../types/Saint.js';
 
 export async function getSaints(): Promise<Saint[]> {
-    let resposta: Response = await fetch('../../docs/data.json');
-    let dados: Saint[] = await resposta.json();
-    return dados;
+    try {
+        const response: Response = await fetch('../../docs/saints.json');
+        const data: Saint[] = await response.json();
+        return data;
+    } catch (error: unknown) {
+        console.error('Erro ao buscar os dados:', error);
+        return [];
+    };
 };

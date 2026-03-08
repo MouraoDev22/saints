@@ -1,6 +1,13 @@
 export async function getSaints() {
-    let resposta = await fetch('./data.json');
-    let dados = await resposta.json();
-    return dados;
+    try {
+        const response = await fetch('../../docs/saints.json');
+        const data = await response.json();
+        return data;
+    }
+    catch (error) {
+        console.error('Erro ao buscar os dados:', error);
+        return [];
+    }
+    ;
 }
 ;

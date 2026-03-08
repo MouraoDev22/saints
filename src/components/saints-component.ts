@@ -4,7 +4,7 @@ import { getSaints } from '../utils/getSaints.js';
 const mainSaints: HTMLElement | null = document.querySelector<HTMLElement>('.apresentacao-personagem');
 if (!mainSaints) throw new Error('HTMLElement(mainSaints) não encontrado!');
 
-let saints: Saint[] = await getSaints();
+let saints: Saint[] | [] = await getSaints();
 
 export function alterarPersonagem(idBtn: string): void {
     if (!mainSaints) throw new Error('HTMLElement(mainSaints) não encontrado!');
