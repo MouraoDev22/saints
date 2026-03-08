@@ -5,6 +5,7 @@ const mainSaints: HTMLElement | null = document.querySelector<HTMLElement>('.apr
 if (!mainSaints) throw new Error('HTMLElement(mainSaints) não encontrado!');
 
 let saints: Saint[] | [] = await getSaints();
+if (saints.length === 0) throw new Error('saints não encontrado!');
 
 export function alterarPersonagem(idBtn: string): void {
     if (!mainSaints) throw new Error('HTMLElement(mainSaints) não encontrado!');

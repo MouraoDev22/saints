@@ -3,6 +3,8 @@ const mainSaints = document.querySelector('.apresentacao-personagem');
 if (!mainSaints)
     throw new Error('HTMLElement(mainSaints) não encontrado!');
 let saints = await getSaints();
+if (saints.length === 0)
+    throw new Error('saints não encontrado!');
 export function alterarPersonagem(idBtn) {
     if (!mainSaints)
         throw new Error('HTMLElement(mainSaints) não encontrado!');
