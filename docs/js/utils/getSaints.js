@@ -1,6 +1,6 @@
 export async function getSaints() {
     try {
-        const response = await fetch('../../docs/saints.json');
+        const response = await fetch('../../saints.json');
         const data = await response.json();
         return data;
     }
